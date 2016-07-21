@@ -1,14 +1,22 @@
 {
   "name": "brunch-test",
+  "description": "Description",
+  "author": "Your Name",
   "version": "1.0.0",
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
   },
-  "author": "",
+  "devDependencies": {
+    "javascript-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0",
+    "clean-css-brunch": "^2.0.0",
+    "auto-reload-brunch": "^2.0.0"
+  },
   "license": "ISC"
 }
