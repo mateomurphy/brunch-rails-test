@@ -20,6 +20,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "pushserve": "^1.0.2"
+    "pushserve": "^1.0.2",
+    "sass-brunch": "^2.6.3"
   }
 }
