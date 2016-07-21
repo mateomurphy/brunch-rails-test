@@ -18,5 +18,8 @@
     "clean-css-brunch": "^2.0.0",
     "auto-reload-brunch": "^2.0.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pushserve": "^1.0.2"
+  }
 }

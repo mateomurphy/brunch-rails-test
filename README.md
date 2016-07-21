@@ -10,11 +10,8 @@
 * `git-ignore node-modules`
 * configure `brunch-config` to use rails locations
 * add `compute_asset_path` helper
-
+* create custom `brunch-server.js` to server assets from 'public'
 
 # todo
 
-* solve asset path issues. possible solutions:
-  * create a custome brunch server to serve on '/assets'
-  * use rack proxy to proxy '/assets' requests to regular brunch server
-  * use config to have `compute_asset_path` return the right value
+* Fingerprinting

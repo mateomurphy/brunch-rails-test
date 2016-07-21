@@ -17,8 +17,4 @@ module.exports = {
     // TODO fonts would need to be added here
     assets: /images[\\/]/
   },
-
-  server: {
-    publicPath: '/public'
-  }
 }
