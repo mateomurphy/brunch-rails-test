@@ -1,6 +1,7 @@
 # dependencies
 
-* `npm install --global brunch`
+* `npm install -g brunch`
+* `npm install -g bower`
 
 # steps
 
