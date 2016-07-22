@@ -1,0 +1,21 @@
+{
+  "name": "brunch-test",
+  "description": "Description",
+  "main": "",
+  "authors": [
+    "Your Name"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mateomurphy/brunch-rails-test",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ujs": "https://github.com/rails/jquery-ujs.git#~1.2.1"
+  }
+}
