@@ -5,6 +5,7 @@ module.exports = {
     watched: [
       'app/assets/javascripts',
       'app/assets/stylesheets',
+      'app/assets/images'
     ]
   },
 
