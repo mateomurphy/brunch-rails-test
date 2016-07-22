@@ -13,6 +13,17 @@ module.exports = {
     templates: {joinTo: '/application.js'}
   },
 
+  modules: {
+    autoRequire: {
+      '/application.js': ['application.js']
+    },
+
+    nameCleaner: function(path) {
+      // clean requires
+      return path.replace(/^app\/assets\/javascripts\//, '');
+    }
+  },
+
   conventions: {
     // TODO fonts would need to be added here
     assets: /images[\\/]/
