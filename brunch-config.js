@@ -2,11 +2,7 @@ module.exports = {
   // See http://brunch.io for documentation.
   paths: {
     public: 'public/assets',
-    watched: [
-      'app/assets/javascripts',
-      'app/assets/stylesheets',
-      'app/assets/images'
-    ]
+    watched: ['app/assets']
   },
 
   files: {
