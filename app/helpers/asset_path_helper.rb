@@ -1,22 +1,8 @@
+require 'dining_car/manifest'
+
 module AssetPathHelper
-  class Manifest
-    def initialize(path)
-      # TODO watch for file changes?
-      @path = path
-      if File.exist?(path)
-        @data = JSON.parse(File.read(@path))
-      else
-        @data = {}
-      end
-    end
-
-    def path_for_asset(path)
-      @data[path] ? @data[path]['url'] : path
-    end
-  end
-
   def manifest
-    @manifest ||= Manifest.new(Rails.root.join('public', 'assets', 'manifest.json'))
+    @manifest ||= DiningCar::Manifest.new(Rails.root.join('public', 'assets', 'manifest.json'))
   end
 
   def compute_asset_path(source, options = {})
