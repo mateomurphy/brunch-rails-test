@@ -1,1 +1,3 @@
-console.log('Serving brunch on rails');
+$(function() {
+  $('h1').html('Serving brunch on rails');
+})
