@@ -17,3 +17,4 @@
 
 * Read asset config from rails
 * Get `fingerprint-brunch`'s `autoReplaceAndHash`
+* Read assets from gem
