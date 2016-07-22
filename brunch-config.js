@@ -17,12 +17,13 @@ module.exports = {
 
   modules: {
     autoRequire: {
-      'application.js': ['application.js']
+      'application.js': ['application']
     },
 
     nameCleaner: function(path) {
-      // clean requires
-      return path.replace(/^app\/assets\/javascripts\//, '');
+      rx = /^.*\/assets\/\w*\/(.*)\./g
+      arr = rx.exec(path);
+      return arr ? arr[1] : path
     }
   },
 
