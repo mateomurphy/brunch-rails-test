@@ -28,14 +28,17 @@ module.exports = {
   },
 
   plugins: {
-    fingerprint: {
-      manifest: 'public/assets/manifest.json',
-      hashLength: 64,
-      srcBasePath: 'public/assets/',
-      destBasePath: 'public/assets/',
-      autoReplaceAndHash: true,
-      autoClearOldFiles: true,
-      alwaysRun: true   // this is just for testing
+    //fingerprint: {
+    //  manifest: 'public/assets/manifest.json',
+    //  hashLength: 64,
+    //  srcBasePath: 'public/assets/',
+    //  destBasePath: 'public/assets/',
+    //  autoReplaceAndHash: true,
+    //  autoClearOldFiles: true,
+    //  alwaysRun: true   // this is just for testing
+    //},
+    hashbrunch: {
+      assetFolder: "app/assets/images"
     }
   }
 }

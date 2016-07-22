@@ -11,7 +11,7 @@ module AssetPathHelper
     end
 
     def path_for_asset(path)
-      @data[path] || path
+      @data[path] ? @data[path]['url'] : path
     end
   end
 

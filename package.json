@@ -16,12 +16,13 @@
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "fingerprint-brunch": "github:dlepaux/fingerprint-brunch",
+    "hash-brunch": "github:dining-car/hash-brunch",
     "javascript-brunch": "^2.0.0",
-    "uglify-js-brunch": "^2.0.0"
+    "uglify-js-brunch": "^2.0.0",
+    "pushserve": "^1.0.2",
+    "sass-brunch": "^2.6.3"
   },
   "license": "ISC",
   "dependencies": {
-    "pushserve": "^1.0.2",
-    "sass-brunch": "^2.6.3"
   }
 }
