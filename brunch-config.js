@@ -30,4 +30,16 @@ module.exports = {
     // TODO fonts would need to be added here
     assets: /images[\\/]/
   },
+
+  plugins: {
+    fingerprint: {
+      manifest: 'public/assets/manifest.json',
+      hashLength: 64,
+      srcBasePath: 'public/assets/',
+      destBasePath: 'public/assets/',
+      autoReplaceAndHash: true,
+      autoClearOldFiles: true,
+      alwaysRun: true   // this is just for testing
+    }
+  }
 }

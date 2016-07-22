@@ -10,9 +10,10 @@
 * `npm install`
 * `git-ignore node-modules`
 * configure `brunch-config` to use rails locations
-* add `compute_asset_path` helper
 * create custom `brunch-server.js` to server assets from 'public'
+* add asset_path helper that can parse manifest files
 
 # todo
 
-* Fingerprinting
+* Read asset config from rails
+* Get `fingerprint-brunch`'s `autoReplaceAndHash`
