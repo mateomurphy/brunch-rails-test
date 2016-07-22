@@ -16,7 +16,7 @@ module.exports = {
 
   modules: {
     autoRequire: {
-      '/application.js': ['application.js']
+      'application.js': ['application.js']
     },
 
     nameCleaner: function(path) {
